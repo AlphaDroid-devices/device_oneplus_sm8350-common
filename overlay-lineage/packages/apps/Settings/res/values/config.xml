@@ -13,4 +13,7 @@
     <!-- Sensor trigger values -->
     <item name="pickup_sensor_value" format="float" type="dimen">0.0</item>
 
+    <!-- Dolby Atmos -->
+    <string name="config_dolbyAtmosPackage" translatable="false">com.dolby.daxappui/com.dolby.daxappui.MainActivity</string>
+
 </resources>
