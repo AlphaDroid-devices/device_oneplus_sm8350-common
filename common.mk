@@ -96,6 +96,9 @@ $(call inherit-product, vendor/motorola-dolby/setup.mk)
 PRODUCT_PACKAGES += \
     android.hardware.authsecret@1.0.vendor
 
+# Bcr Basic call recorder
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
